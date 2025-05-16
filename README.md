@@ -93,5 +93,18 @@ Validate installation using command terraform -v .
 Validate installation using command helm . Output will be a help recommendation from helm.
 
 
-===========================================================================================
+===============================================================================================
+
+- Containerize Application
+
+   Two applications along with Dockerfile has been uploaded in following paths
+  
+  ./events-api
+  
+  ./events-website
+  
+
+===============================================================================================
+  
+   
 
