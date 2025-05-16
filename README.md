@@ -1,11 +1,11 @@
 # Setup deployment server 
  
- - Need to open following ports in security group of the deployment server
+- Need to open following ports in security group of the deployment server
 
        http ( 80 ) , https ( 443) , ssh (22)
 ====================================================================================
  
-- To install Docker use the following commands ....
+ - To install Docker use the following commands ....
   
      sudo yum install docker
   
