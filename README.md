@@ -3,17 +3,13 @@
  
      http ( 80 ) , https ( 443) , ssh (22)
 
-- To install Docker use the following commands ....
-  
-     sudo yum install docker
-     
-     sudo systemctl enable docker (set to start service on boot)
-     
-     sudo systemctl start docker (start the service)
-     
-   
-   Validate installation using command 'sudo systemctl status docker'
+- To install Docker use the following commands 
 
+  	sudo yum install docker
+  	sudo systemctl enable docker
+        sudo systemctl start docker
+        
+   Validate installation using command 'sudo systemctl status docker'
 
 
  - To install Kubernetes , use the following commands..
@@ -21,10 +17,10 @@
 	curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.2/2024-11-15/bin/linux/amd64/kubectl
 	chmod +x ./kubectl
         mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$PATH
-   
+	   
     Validate installation using command kubectl . Output will be help recommendation from kubectl
 
-
+    
  - To install eksctl , use the following commands...
 
 	export ARCH=amd64
@@ -34,7 +30,7 @@
 	sudo mv /tmp/eksctl /usr/local/bin
 
    Validate installation using command eksctl. Output will be help recommendation from eksctl
-
+   
 
 
 - To install git use the following commands ...
