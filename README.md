@@ -1,9 +1,10 @@
 # Setup deployment server 
  
  - Need to open following ports in security group of the deployment server
-   
-        http ( 80 ) , https ( 443) , ssh (22)
-====================================================================================     
+
+       http ( 80 ) , https ( 443) , ssh (22)
+====================================================================================
+ 
 - To install Docker use the following commands ....
   
      sudo yum install docker
@@ -16,6 +17,7 @@
  Validate installation using command 'sudo systemctl status docker'
 
  ===================================================================================
+ 
 
  - To install Kubernetes , use the following commands..
  
@@ -25,7 +27,9 @@
         mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$PATH
 	   
   Validate installation using command kubectl . Output will be help recommendation from kubectl
+  
 ======================================================================================
+
 
  - To install eksctl , use the following commands...
 
@@ -37,36 +41,57 @@
 
  Validate installation using command eksctl. Output will be help recommendation from eksctl
 
-
+==========================================================================================
 
 - To install git use the following commands ...
+  
   
      sudo yum install git
+     
+  
  Validate installation using command git . Output will be help recommendation from git.
 
+ 
+==========================================================================================
 
 - To install Node.js use the following commands...
+  
 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    
     source ~/.bashrc
+    
     nvm install --lts
+    
   
-Validate installation using command npm. Output will be a help recommendation from npm .
+Validate installation using command npm. Output will be a help recommendation from npm.
+
+===========================================================================================
 
 - To install Terraform use the following commands ...
+  
 
    sudo yum install -y yum-utils
+   
    sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo   // Add hadicorp repo
+   
    sudo yum -y install terraform
+   
    
 Validate installation using command terraform -v . 
 
+============================================================================================
 
 - From the deployment server, run the following command to install Helm:
-   
+  
    curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+   
    chmod 700 get_helm.sh
+   
    ./get_helm.sh
-
+   
 Validate installation using command helm . Output will be a help recommendation from helm.
+
+
+===========================================================================================
 
