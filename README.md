@@ -6,8 +6,11 @@
 - To install Docker use the following commands ....
   
      sudo yum install docker
+     
      sudo systemctl enable docker (set to start service on boot)
+     
      sudo systemctl start docker (start the service)
+     
    
    Validate installation using command 'sudo systemctl status docker'
 
