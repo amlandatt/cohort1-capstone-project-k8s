@@ -1,9 +1,10 @@
 # Setup deployment server 
  - Need to open following ports in security group of the deployment server 
+ 
      http ( 80 ) , https ( 443) , ssh (22)
 
 - To install Docker use the following commands ....
-     
+  
      sudo yum install docker
      sudo systemctl enable docker (set to start service on boot)
      sudo systemctl start docker (start the service)
@@ -11,10 +12,12 @@
    Validate installation using command 'sudo systemctl status docker'
 
 
+
  - To install Kubernetes , use the following commands..
+ 
 	curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.2/2024-11-15/bin/linux/amd64/kubectl
 	chmod +x ./kubectl
-        mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$PATH
+        mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$PATH
    
     Validate installation using command kubectl . Output will be help recommendation from kubectl
 
@@ -32,9 +35,10 @@
 
 
 - To install git use the following commands ...
-  
-     sudo yum install git
-  Validate installation using command git . Output will be help recommendation from git.
+
+  	sudo yum install git
+
+   Validate installation using command git . Output will be help recommendation from git.
 
 
 - To install Node.js use the following commands...
