@@ -104,7 +104,15 @@ Validate installation using command helm . Output will be a help recommendation 
   ./events-website
   
 
-===============================================================================================
+================================================================================================
+- Build Kubernetes Cluster
+   K8s cluster created in fargate . Corrosponding yaml file stored in following location
+
+    ./eks_cluster_config/cluster.yaml
+
+================================================================================================
+  
+
   
    
 
