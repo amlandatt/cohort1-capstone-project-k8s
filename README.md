@@ -128,8 +128,12 @@ Validate installation using command helm . Output will be a help recommendation 
 - Deploy the Application Declaratively
 
     deployment and service yaml are placedn in following location
+  
+     ./kubernetes-config 
+
 
 =================================================================================================
+
 
 
 
