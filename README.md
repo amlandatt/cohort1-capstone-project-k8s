@@ -125,6 +125,14 @@ Validate installation using command helm . Output will be a help recommendation 
   version of k8s 1.31 ( must be over 1.3 )
 
 =================================================================================================
+- Deploy the Application Declaratively
+
+    deployment and service yaml are placedn in following location
+
+=================================================================================================
+
+
+
 
 
 
