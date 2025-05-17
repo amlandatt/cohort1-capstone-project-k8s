@@ -118,8 +118,9 @@ Validate installation using command helm . Output will be a help recommendation 
 ================================================================================================
 - Kubernetes Cluster creation
 
-  k8s file kept her
-
+  k8s file kept in following folder ...
+  
+   ./eks_cluster_config
 
   version of k8s 1.31 ( must be over 1.3 )
 
