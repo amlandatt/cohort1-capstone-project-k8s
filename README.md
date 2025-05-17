@@ -111,6 +111,16 @@ Validate installation using command helm . Output will be a help recommendation 
     ./eks_cluster_config/cluster.yaml
 
 ================================================================================================
+- Containerize Application
+   Images placed in public docker hub
+
+  https://hub.docker.com/repositories/amlandocker
+================================================================================================
+
+
+  
+  
+  
   
 
   
