@@ -116,6 +116,19 @@ Validate installation using command helm . Output will be a help recommendation 
 
   https://hub.docker.com/repositories/amlandocker
 ================================================================================================
+- Kubernetes Cluster creation
+
+  k8s file kept her
+
+
+  version of k8s 1.31 ( must be over 1.3 )
+
+=================================================================================================
+
+
+
+  
+
 
 
   
